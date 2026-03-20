@@ -1,9 +1,14 @@
-from pydantic_settings import BaseSettings
-from pydantic import Field
+from pydantic_settings import BaseSettings, SettingsConfigDict
 from typing import List
 
 
 class Settings(BaseSettings):
+    model_config = SettingsConfigDict(
+        env_file=".env",
+        env_file_encoding="utf-8",
+        extra="ignore",   # silently drop unknown env vars (Render platform, NEXT_PUBLIC_*, etc.)
+    )
+
     # App
     APP_NAME: str = "Options Flow Radar"
     ENV: str = "development"
@@ -89,10 +94,6 @@ class Settings(BaseSettings):
     # Fixed UUID so migrations can backfill existing records deterministically.
     DEFAULT_TENANT_ID: str = "00000000-0000-0000-0000-000000000001"
     DEFAULT_TENANT_SLUG: str = "default"
-
-    class Config:
-        env_file = ".env"
-        env_file_encoding = "utf-8"
 
 
 settings = Settings()
