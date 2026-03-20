@@ -1,0 +1,36 @@
+databases:
+  - name: options-flow-postgres
+    plan: free
+    databaseName: options_flow
+    user: options_flow
+
+services:
+  - type: web
+    name: options-flow-backend
+    env: docker
+    plan: free
+    dockerContext: ./backend
+    dockerfilePath: ./backend/Dockerfile
+    autoDeploy: true
+    envVars:
+      - key: DATABASE_URL
+        fromDatabase:
+          name: options-flow-postgres
+          property: connectionString
+      - key: DEFAULT_TENANT_ID
+        value: 00000000-0000-0000-0000-000000000001
+      - key: ENV
+        value: production
+      - key: LOG_LEVEL
+        value: INFO
+
+  - type: web
+    name: options-flow-frontend
+    env: docker
+    plan: free
+    dockerContext: ./frontend
+    dockerfilePath: ./frontend/Dockerfile
+    autoDeploy: true
+    envVars:
+      - key: NEXT_PUBLIC_API_URL
+        value: https://options-flow-backend.onrender.com
