@@ -1,0 +1,110 @@
+[
+  {
+    "symbol": "SPY",
+    "event_type": "macro_relevant",
+    "title": "SPY — Fed FOMC Decision",
+    "event_date": "2026-03-18",
+    "event_time": "14:00",
+    "source": "federalreserve.gov",
+    "notes": "Q1 2026 FOMC rate decision"
+  },
+  {
+    "symbol": "SPY",
+    "event_type": "macro_relevant",
+    "title": "SPY — Fed FOMC Decision",
+    "event_date": "2026-05-06",
+    "event_time": "14:00",
+    "source": "federalreserve.gov",
+    "notes": "Q2 2026 FOMC rate decision"
+  },
+  {
+    "symbol": "QQQ",
+    "event_type": "macro_relevant",
+    "title": "QQQ — Fed FOMC Decision",
+    "event_date": "2026-03-18",
+    "event_time": "14:00",
+    "source": "federalreserve.gov",
+    "notes": "Q1 2026 FOMC rate decision"
+  },
+  {
+    "symbol": "QQQ",
+    "event_type": "macro_relevant",
+    "title": "QQQ — Fed FOMC Decision",
+    "event_date": "2026-05-06",
+    "event_time": "14:00",
+    "source": "federalreserve.gov",
+    "notes": "Q2 2026 FOMC rate decision"
+  },
+  {
+    "symbol": "AAPL",
+    "event_type": "earnings",
+    "title": "AAPL Q2 FY2026 Earnings",
+    "event_date": "2026-04-30",
+    "event_time": "AMC",
+    "source": "estimate",
+    "notes": "Fiscal Q2 2026 (Jan-Mar). Date estimated — verify on IR site."
+  },
+  {
+    "symbol": "NVDA",
+    "event_type": "earnings",
+    "title": "NVDA Q1 FY2027 Earnings",
+    "event_date": "2026-05-28",
+    "event_time": "AMC",
+    "source": "estimate",
+    "notes": "Fiscal Q1 2027 (Feb-Apr). Date estimated — verify on IR site."
+  },
+  {
+    "symbol": "TSLA",
+    "event_type": "earnings",
+    "title": "TSLA Q1 2026 Earnings",
+    "event_date": "2026-04-22",
+    "event_time": "AMC",
+    "source": "estimate",
+    "notes": "Calendar Q1 2026 (Jan-Mar). Date estimated — verify on IR site."
+  },
+  {
+    "symbol": "META",
+    "event_type": "earnings",
+    "title": "META Q1 2026 Earnings",
+    "event_date": "2026-04-29",
+    "event_time": "AMC",
+    "source": "estimate",
+    "notes": "Calendar Q1 2026 (Jan-Mar). Date estimated — verify on IR site."
+  },
+  {
+    "symbol": "MSFT",
+    "event_type": "earnings",
+    "title": "MSFT Q3 FY2026 Earnings",
+    "event_date": "2026-04-29",
+    "event_time": "AMC",
+    "source": "estimate",
+    "notes": "Fiscal Q3 2026 (Jan-Mar). Date estimated — verify on IR site."
+  },
+  {
+    "symbol": "AMD",
+    "event_type": "earnings",
+    "title": "AMD Q1 2026 Earnings",
+    "event_date": "2026-04-28",
+    "event_time": "AMC",
+    "source": "estimate",
+    "notes": "Calendar Q1 2026 (Jan-Mar). Date estimated — verify on IR site."
+  },
+  {
+    "symbol": "GOOGL",
+    "event_type": "earnings",
+    "title": "GOOGL Q1 2026 Earnings",
+    "event_date": "2026-04-28",
+    "event_time": "AMC",
+    "source": "estimate",
+    "notes": "Calendar Q1 2026 (Jan-Mar). Date estimated — verify on IR site."
+  },
+  {
+    "symbol": "AMZN",
+    "event_type": "earnings",
+    "title": "AMZN Q1 2026 Earnings",
+    "event_date": "2026-05-01",
+    "event_time": "AMC",
+    "source": "estimate",
+    "notes": "Calendar Q1 2026 (Jan-Mar). Date estimated — verify on IR site."
+  }
+]

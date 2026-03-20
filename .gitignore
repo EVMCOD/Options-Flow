@@ -1,0 +1,29 @@
+# Environment
+.env
+.env.*
+!.env.example
+
+# Node / Next
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Build / misc
+coverage/
+*.sqlite3
